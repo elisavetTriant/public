@@ -21,7 +21,9 @@
 wp-config.php
 
 # Example themes
-/wp-content/themes/twenty*/
+/wp-content/themes/twentytwenty/
+/wp-content/themes/twentytwentyone/
+/wp-content/themes/twentytwentytwo/
 
 # Example plugin
 /wp-content/plugins/hello.php
@@ -39,10 +41,13 @@ wp-config.php
 #
 # Note: If you wish to whitelist plugins,
 # uncomment the next line
-#/wp-content/plugins
+/wp-content/plugins
 
 # All themes
 #
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+# Node Modules
+/wp-content/themes/twentytwenty-child/node_modules

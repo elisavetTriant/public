@@ -1,2 +1,2 @@
-# wordpress-acf-leaflet-demo
+# WordPress Maps with ACF and Leaflet Demo
  
