@@ -1,4 +1,4 @@
-# WordPress Maps with ACF and Leaflet Demo
+# WordPress Maps with ACF and Leaflet JavaScript Library
 
 This is a demonstration of what is possible with:
 
