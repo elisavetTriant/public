@@ -2553,8 +2553,8 @@ class LeafletMap {
   add_marker(map, element, showLink) {
     const templateUrl = php_to_js.data.theme_uri;
     const myIcon = leaflet__WEBPACK_IMPORTED_MODULE_0___default().icon({
-      iconUrl: templateUrl + "/images/maps/icons8-place-marker-24.png",
-      iconRetinaUrl: templateUrl + '/images/maps/icons8-place-marker-96.png'
+      iconUrl: templateUrl + "/images/maps/icon.png",
+      iconRetinaUrl: templateUrl + '/images/maps/icon-retina.png'
     });
     const {
       latitude,
@@ -2566,8 +2566,8 @@ class LeafletMap {
     });
     marker.addTo(map);
     marker.bindPopup(`
-            ${`<p>${showLink ? `<a href="${element.link}">` : ''}${element.title.rendered}${showLink ? '</a>' : ''}</p>`}
-            ${address ? `<p>${address}</p>` : ''}        
+            ${`<p class="popup-title">${showLink ? `<a href="${element.link}">` : ''}${element.title.rendered}${showLink ? '</a>' : ''}</p>`}
+            ${address ? `<p class="popup-address">${address}</p>` : ''}        
         `);
   } // end add_marker
 

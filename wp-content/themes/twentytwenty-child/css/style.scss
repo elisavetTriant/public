@@ -8,7 +8,19 @@
     font-size: 18px;
     margin: 3rem auto;
 
+    @media (max-width: 640px) {
+        height: 320px;
+    }
+
     p {
         font-size: 1.5rem;
+    }
+
+    .popup-title {
+        color: #cd2653;
+    }
+
+    .popup-address {
+        font-weight: bolder;
     }
 }

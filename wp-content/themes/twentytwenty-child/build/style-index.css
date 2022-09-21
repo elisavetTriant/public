@@ -8,8 +8,19 @@
   font-size: 18px;
   margin: 3rem auto;
 }
+@media (max-width: 640px) {
+  .acf-map {
+    height: 320px;
+  }
+}
 .acf-map p {
   font-size: 1.5rem;
+}
+.acf-map .popup-title {
+  color: #cd2653;
+}
+.acf-map .popup-address {
+  font-weight: bolder;
 }
 
 /*# sourceMappingURL=style-index.css.map*/
