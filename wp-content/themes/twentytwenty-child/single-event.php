@@ -51,11 +51,13 @@ get_header();
 
 				</div><!-- .post-inner -->
 
-
-				<div class="section-inner">
-					<h3>Location of <?php the_title(); ?> Event</h2>
+				<?php if (get_field('location_latitude') && get_field('location_longitude')) : ?>
+					<div class="section-inner">
+						<h3>Location of <?php the_title(); ?> Event</h3>
+						<!-- example usage on custom post-type / single point of interest marker -->
 						<div class="acf-map leaflet-map" data-id=<?php the_ID(); ?> data-template=<?php echo get_post_type() ?>></div>
-				</div>
+					</div>
+				<?php endif; ?>
 
 				<div class="section-inner">
 					<?php
