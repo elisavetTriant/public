@@ -4,16 +4,17 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "build": "wp-scripts build",
-      "start": "wp-scripts start",
-      "dev": "wp-scripts start",
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "wp-scripts build",
+        "start": "wp-scripts start",
+        "dev": "wp-scripts start",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Elissavet Triantafyllopoulou",
     "license": "ISC",
     "dependencies": {
-      "@wordpress/scripts": "^24.0.0",
-      "axios": "^0.27.2",
-      "leaflet": "^1.8.0"
+        "@wordpress/scripts": "^24.0.0",
+        "axios": "^0.27.2",
+        "leaflet": "^1.8.0",
+        "leaflet.markercluster": "^1.5.3"
     }
 }
